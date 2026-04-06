@@ -20,7 +20,7 @@ st.markdown("""
     }
     .stTextInput>div>div>input { border-radius: 10px; }
     </style>
-    """, unsafe_allow_input=True)
+    """, unsafe_allow_html=True)
 
 # --- SIDEBAR (Settings) ---
 with st.sidebar:
